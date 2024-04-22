@@ -4,14 +4,14 @@ public class APLine
   private int b;
   private int c;
   
-  public APLine (int A, int B, int C){
+  public APLine(int A, int B, int C){
     a = A;
     b = B;
     c = C;
   }
   
   public double getSlope(){
-    return (double) a/b;
+    return ((double) a)/b;
   }
   
   public boolean isOnLine(int x, int y){
